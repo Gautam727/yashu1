@@ -1,0 +1,97 @@
+*{
+    margin:0 ;
+    padding: 0;
+}
+
+.background{
+height: 100%;
+width: 100%;
+background-color: rgba(252, 216, 216, 0.562);
+background-position: center;
+background-size: cover;
+position: absolute;
+}
+
+.left-box{
+    width: 400px;
+    background: whitesmoke;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.267) inset;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+.right-box{
+    
+    text-align: center;
+    width: 210px;
+    background: orangered;
+    font-style: initial;
+    font-size: 18px;
+    color: rgb(235, 222, 217);
+    
+    background-image:url(images/logo/back6.png);
+
+    text-shadow: 5px 5px black;
+}
+
+.complete-box{
+
+display: flex;
+    width: 600px;
+    height: 460px;
+    position: relative;
+    margin: 6% auto;
+    background: transparent;
+    padding: 5px;
+    box-shadow: 10px 5px 5px grey;
+
+}
+
+
+
+.input-grp{
+    left: 50px;
+    top: 10%;
+    bottom: 10%;
+    
+    position:relative ;
+   
+    display: ruby;
+    width:70% ;
+    transition: .5s;
+    
+}
+
+.input-field{
+width: 330px;
+padding:10px 0 ;
+margin:5px 0 ;
+border-top: 0;
+border-left: 0;
+border-right: 0;
+border-bottom: 1px solid black;
+outline: none ;
+background:  rgb(248, 245, 245);
+}
+
+.sub-btn{
+    background-image: linear-gradient(orangered,rgb(253, 97, 40));
+  color: white;
+  padding: 8px 40px;
+  text-align: center;
+  display: inline-block;
+  font-size: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+text-align: center;
+justify-content: center;
+
+
+
+}
+
+.foot{
+font-size: 12px;
+left: 100px;
+text-align: center;
+}
